@@ -1,0 +1,61 @@
+.notekey {
+  position: relative;
+  z-index: 0;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  margin: 3px;
+  text-align: center;
+  border-radius: 10px;
+  font-family: sans-serif;
+  box-shadow: 2px 2px 8px black;
+  opacity: 0.7;
+}
+
+.active-true {
+  opacity: 1;
+  box-shadow: none;
+}
+
+.keytext {
+  position: relative;
+  opacity: 1;
+  z-index: 1;
+}
+
+.C4 {
+  background: red;
+}
+
+.D4 {
+  background: orange;
+}
+
+.E4 {
+  background: yellow;
+}
+
+.F4 {
+  background: green;
+}
+
+.G4 {
+  background: blue;
+}
+
+.A4 {
+  background: purple;
+}
+
+.B4 {
+  background: pink;
+}
+
+.C5 {
+  background: red;
+}
+
+button {
+  margin: 5px;
+  border-radius: 5px;
+}
